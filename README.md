@@ -1,4 +1,4 @@
-# Exploring Structured Semantic Priors Underlying Diffusion Score for Test-time adaptation
+# Exploring Structured Semantic Priors Underlying Diffusion Score for Test-time adaptation (NeurIPS 2024)
 
 **by [Mingjia Li](https://kiwixr.github.io), [Shuang Li](https://shuangli.xyz), [Tongrui Su](https://molarsu.github.io), [Longhui Yuan](https://yuanlonghui.github.io), [Jian Liang](https://scholar.google.com/citations?user=mrunnpoAAAAJ), and [Wei Li](https://scholar.google.com/citations?user=i8jP6q8AAAAJ)**
 
