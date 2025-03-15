@@ -113,7 +113,7 @@ ln -s /path/to/ade20k data/ADEChallengeData2016
 
 ### ADE20K-C
 
-There is randomness in the corruption generation process of [imagecorruptions](https://github.com/bethgelab/imagecorruptions), so we recommend to directly download our version [[google drive](https://drive.google.com/file/d/1vTYoksyYHdpARqDZxu1LRJny9__tf8xT/view)] of corrupted validation set for the sake of reproducibility:
+There is randomness in the corruption generation process of [imagecorruptions](https://github.com/bethgelab/imagecorruptions), so we recommend directly downloading our version [[google drive](https://drive.google.com/file/d/1vTYoksyYHdpARqDZxu1LRJny9__tf8xT/view)] of corrupted validation set for the sake of reproducibility:
 
 ```shell
 cd data
