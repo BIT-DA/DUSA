@@ -1,10 +1,13 @@
-# Exploring Structured Semantic Priors Underlying Diffusion Score for Test-time adaptation (NeurIPS 2024)
+# Exploring Structured Semantic Priors Underlying Diffusion Score for Test-time Adaptation (NeurIPS 2024)
 
 **by [Mingjia Li](https://kiwixr.github.io), [Shuang Li](https://shuangli.xyz), [Tongrui Su](https://molarsu.github.io), [Longhui Yuan](https://yuanlonghui.github.io), [Jian Liang](https://scholar.google.com/citations?user=mrunnpoAAAAJ), and [Wei Li](https://scholar.google.com/citations?user=i8jP6q8AAAAJ)**
 
 [![Project Page](https://img.shields.io/badge/Project%20Page-%23D80082?logo=&style=flat-square)](https://kiwixr.github.io/projects/dusa)&nbsp;&nbsp;
-[![Paper](https://img.shields.io/badge/Paper-%23B31B1B?style=flat-square)](https://openreview.net/forum?id=c7m1HahBNf)&nbsp;&nbsp;
+[![Paper](https://img.shields.io/badge/OpenReview-Paper-%23B31B1B?style=flat-square)](https://openreview.net/forum?id=c7m1HahBNf)&nbsp;&nbsp;
+[![NeurIPS](https://img.shields.io/badge/NeurIPS-Paper-%230D6EFD?style=flat-square)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/16986b69068fbe6acf64eb6566519c74-Abstract-Conference.html)&nbsp;&nbsp;
 [![Video](https://img.shields.io/badge/Video-%2350A3A4?style=flat-square)](https://neurips.cc/virtual/2024/poster/94444)&nbsp;&nbsp;
+
+🎉 Code available for test-time segmentation
 
 > [!NOTE]
 > **DUSA** is a method that:
@@ -16,10 +19,6 @@
 >
 > It is highly competitive in fully, continual, and potentially other test-time adaptation tasks.
 
-> TODO:
->
-> - [ ] Release code for test-time segmentation
-
 ## Overview
 
 Capitalizing on the complementary advantages of generative and discriminative models has always been a compelling vision in machine learning, backed by a growing body of research. This work discloses the hidden semantic structure within score-based generative models, unveiling their potential as effective discriminative priors. Inspired by our theoretical findings, we propose DUSA to exploit the structured semantic priors underlying diffusion score to facilitate the test-time adaptation of image classifiers or dense predictors. Notably, DUSA extracts knowledge from a single timestep of denoising diffusion, lifting the curse of Monte Carlo-based likelihood estimation over timesteps.
@@ -30,11 +29,15 @@ For more details please refer to our [project page](https://kiwixr.github.io/pro
 
 To replicate the results for classification tasks, please refer to instructions [here](./classification/README.md).
 
+To replicate the results for segmentation tasks, please refer to instructions [here](./segmentation/README.md).
+
 ## License
 
 This project is released under the [Apache 2.0 License](./LICENSE).
 
 Portions of the code are based on [MMPreTrain](https://github.com/open-mmlab/mmpretrain), which is also licensed under the [Apache 2.0 License](https://github.com/open-mmlab/mmpretrain/blob/main/LICENSE).
+
+Portions of the code are based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation), which is also licensed under the [Apache 2.0 License](https://github.com/open-mmlab/mmsegmentation/blob/main/LICENSE).
 
 Portions of the code are from [DiT](https://github.com/facebookresearch/DiT), which is licensed under [CC BY-NC 4.0 License](https://github.com/facebookresearch/DiT/blob/main/LICENSE.txt).
 

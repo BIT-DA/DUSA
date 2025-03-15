@@ -148,18 +148,25 @@ The scripts are available in the `./sh` directory. Change `CUDA_VISIBLE_DEVICES`
 ### Fully TTA of ConvNeXt-Large
 
 - DUSA
+
   ```shell
   bash sh/convnext-l/dusa_convnext_in-c.sh
   ```
+
 - DUSA-U
+
   ```shell
   bash sh/convnext-l/dusa-u_convnext_in-c.sh
   ```
+
 - Ablation on Noise
+
   ```shell
   bash sh/convnext-l/dusa_ablation_convnext.sh
   ```
+
 - Baselines
+
   ```shell
   bash sh/convnext-l/baselines_convnext_in-c.sh
   ```
@@ -167,10 +174,13 @@ The scripts are available in the `./sh` directory. Change `CUDA_VISIBLE_DEVICES`
 ### Continual TTA of ConvNeXt-Large
 
 - DUSA
+
   ```shell
   bash sh/convnext-l/dusa_continual_convnext_in-c.sh
   ```
+
 - Baselines
+
   ```shell
   bash sh/convnext-l/baselines_continual_convnext_in-c.sh
   ```
@@ -178,14 +188,19 @@ The scripts are available in the `./sh` directory. Change `CUDA_VISIBLE_DEVICES`
 ### Fully TTA of ViT-B/16
 
 - DUSA
+
   ```shell
   bash sh/vit-b/dusa_vit_in-c.sh
   ```
+
 - DUSA-U
+
   ```shell
   bash sh/vit-b/dusa-u_vit_in-c.sh
   ```
+
 - Baselines
+
   ```shell
   bash sh/vit-b/baselines_vit_in-c.sh
   ```
@@ -193,18 +208,25 @@ The scripts are available in the `./sh` directory. Change `CUDA_VISIBLE_DEVICES`
 ### Fully TTA of ResNet50-GN
 
 - DUSA
+
   ```shell
   bash sh/res50-gn/dusa_res50_in-c.sh
   ```
+
 - DUSA-U
+
   ```shell
   bash sh/res50-gn/dusa-u_res50_in-c.sh
   ```
+
 - Ablation on Noise
+
   ```shell
   bash sh/res50-gn/dusa_ablation_res50.sh
   ```
+
 - Baselines
+
   ```shell
   bash sh/res50-gn/baselines_res50_in-c.sh
   ```
